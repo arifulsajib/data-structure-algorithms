@@ -75,3 +75,5 @@ const isPowerOfTwo2 = (n) => {
 console.log(isPowerOfTwo2(1));
 console.log(isPowerOfTwo2(4));
 console.log(isPowerOfTwo2(5));
+
+// Big-O notation: O(1) constant
