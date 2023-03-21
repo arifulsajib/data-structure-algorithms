@@ -48,24 +48,21 @@ console.log(isPowerOfTwo(5));
 // Big-O notation: O(logn) logarithmic
 
 /*
-Solution 2: Powers of two in binary form always have just one bit. (except 1)
+Solution 2: Je sonkha gular power of two ache sei songha and tar aager songshar binary +(&) korle sobsomoy 0 paowa jay. 
+Je sonkha gular power of 2 nae segula 0 pawa jay na.
+
 Binary:
-n
-1 -> 1 (one 1)
-2 -> 10 (one 1, others 0) 
-4 -> 100 (one 1, others 0)
-8 -> 1000 (one 1, others 0)
+2 er binary 10; 2-1=1 er binary 01
+2 & (2-1) --> 10 + 01 = 00   ===>True
 
-If we subtract a power of 2 numbers by 1 then all unset bits after the only set bit become set, and the set bit becomes unset.
-n-1
-2-1 -> 01 (one 0, others 1)
-4-1 -> 011 (one 0, others 1)
-8-1 -> 0111 (one 0, others 1)
+4 er binary 100; 4-1=3 er binary 011
+4 & (4-1) --> 100 + 011 = 000   ===>True
 
-So, if a number n is a power of 2 then bitwise & of n and n-1 will be zero. 
-n & n+1
-4 & 4-1 => 100 & 011 = 000
-8 & 8-1 => 1000 & 0111 = 0000
+8 er binary 1000; 8-1=7 er binary 0111
+8 & (8-1) --> 1000 + 0111 = 0000   ===>True
+
+7 er binary 111; 7-1=6 er binary 110
+7 & (7-1) --> 111 + 110 = 110   ===>false
 */
 
 const isPowerOfTwo2 = (n) => {
