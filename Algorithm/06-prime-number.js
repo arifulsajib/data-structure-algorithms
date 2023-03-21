@@ -36,19 +36,17 @@ n=24, 4*6
 sqrt(35) = 5.91
 n=35, 5*7
 
-So, we can see that if n is not prime number then it can be devided by a number that is less than sqrt(n)
+So, we can see that if n is not prime number then it can be devided by a number that is less than sqrt(n).
 */
 const isPrime2 = (n) => {
   if (n < 2) {
     return false;
   }
-
-  for (let i = 2; i <= Math.sqrt(n); i++) {
+  for (i = 2; i <= Math.sqrt(n); i++) {
     if (n % i === 0) {
       return false;
     }
   }
-
   return true;
 };
 
