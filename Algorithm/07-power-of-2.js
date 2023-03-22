@@ -3,7 +3,7 @@ Problem: Given a positive integer "n". Determine if the number is a power of 2 o
 
 A integer is a power of two if n = 2^x. (jodi kono songkha k 2 er power diye prokash kora jay)
 
-ex: 
+ex:
 1 = 2^0
 2 = 2^1
 3 = not posble to difine by 2^x
@@ -16,7 +16,7 @@ ex:
 */
 
 /* Solution: 
-ex: each loop half the n
+ex: each loop half the integer n
 10/2 = 5, reminder=0
 5/2 = 2, reminder=1
 
