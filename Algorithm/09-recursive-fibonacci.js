@@ -9,6 +9,7 @@ the first two numbers in the sequence are zero and one.
 So,
 fib(0) = 0
 fib(1) = 1
+fib(3) = 2
 fib(6) = 8
 
 Problem solving advice when it comes to recursion
@@ -34,6 +35,7 @@ const recursiveFibonacci = (n) => {
     return n;
   }
 
+  // recursion
   return recursiveFibonacci(n - 1) + recursiveFibonacci(n - 2);
 };
 
