@@ -30,4 +30,4 @@ console.log(linearSearch([-5, 2, 10, 4, 6], 10));
 console.log(linearSearch([-5, 2, 10, 4, 6], 4));
 console.log(linearSearch([-5, 2, 10, 4, 6], 20));
 
-// Big o notation: O(n)
+// Big o notation: O(n) lenear
