@@ -14,5 +14,3 @@ const largestThree = (arr) => {
 
 const output = largestThree([1, 5, 6, 9, 22, 53]);
 console.log(output);
-
-// Big o notation O(n)
