@@ -13,7 +13,7 @@ let arr = [1, 2, 3, 4, 5];
 let n = arr.length;
 
 document.write("Given array is <br>");
-for (let i = 0;; i < n; i++) document.write(arr[i] + " ");
+for (let i = 0; i < n; i++) document.write(arr[i] + " ");
 
 rotate(arr, n);
 
