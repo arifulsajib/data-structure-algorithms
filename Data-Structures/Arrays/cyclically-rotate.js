@@ -20,3 +20,4 @@ rotate(arr, n);
 document.write("<br>Rotated array is <br>");
 for (let i = 0; i < n; i++) document.write(arr[i] + " ");
 
+// Big o Notation
