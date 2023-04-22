@@ -15,10 +15,9 @@ let n = arr.length;
 document.write("Given array is <br>");
 for (let i = 0; i < n; i++) document.write(arr[i] + " ");
 
-// call
+// call function
 rotate(arr, n);
 
 document.write("<br>Rotated array is <br>");
 for (let i = 0; i < n; i++) document.write(arr[i] + " ");
 
-// Big o Notation O(N)
