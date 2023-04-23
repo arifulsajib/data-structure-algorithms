@@ -2,6 +2,7 @@
 JavaScript code for program to cyclically rotate an array by one 
 */
 
+// method 1
 const rotate = (arr, n) => {
   let x = arr[n - 1],
     i;
