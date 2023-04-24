@@ -8,7 +8,7 @@ const countOccur = (arr) => {
   return counts;
 };
 
-const arr = [5, 5, 5, 2, 2, 2, 2, 2, 9, 4];
+const arr = [5, 5, 5, 2, 2, 2, 2, 2, 9, 4, 5];
 console.log(countOccur(arr));
 console.log(countOccur(arr)[5]);
 
