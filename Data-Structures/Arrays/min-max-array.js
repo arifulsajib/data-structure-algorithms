@@ -17,4 +17,3 @@ console.log(findMinMax([1, 345, 234, 21, 56789]).minValue);
 console.log(findMinMax([1, 345, 234, 21, 56789]).maxValue);
 
 // Big o notation is O(n)
-//Next method
