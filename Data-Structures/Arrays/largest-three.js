@@ -16,3 +16,4 @@ const output = largestThree([1, 5, 6, 9, 22, 53]);
 console.log(output);
 
 // Big O notation: O(n)
+// So this is linear
