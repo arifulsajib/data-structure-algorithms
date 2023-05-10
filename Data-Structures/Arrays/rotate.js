@@ -19,6 +19,7 @@ for (let i = 0; i < n; i++) document.write(arr[i] + " ");
 // call function
 rotate(arr, n);
 
+// print one by one
 document.write("<br>Rotated array is <br>");
 for (let i = 0; i < n; i++) document.write(arr[i] + " ");
 
