@@ -36,3 +36,4 @@ console.log("Reversed array is");
 printArray(arr);
 
 // Big o notaion: O(n)
+// Linear
